@@ -211,3 +211,44 @@ footer {
 .social-links li a i:hover {
     background-color: #8e4610
 }
+/*  -------------------------- Exp */
+.exp-icon {
+    font-size: 26px;
+    color: #e67e22;
+
+}
+.exp-heading {
+    margin-bottom: 15px;
+     
+}
+.bg-color-personal {
+    background: #f4f4f4
+}
+/*  -------------------------- contact info */
+.contact-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+.contact-info-item .key,
+.contact-info-item .value {
+    padding-right: 8px;
+    display: inline-block; 
+}
+.contact-info-item .key p,
+.contact-info-item .value p {
+    margin: 0;
+}
+.contact-info-item .key {
+    width:30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top 
+}
+.contact-info-item .key p {
+    font-weight: 700;
+}
+.contact-info-item .value {
+    position: relative;
+    width: 60%;
+}
