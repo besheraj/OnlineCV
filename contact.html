@@ -17,7 +17,7 @@
     <title>Contact</title>
   </head>
   <body>
-   <header>
+    <header>
       <div class="row no-gutters">
         <a href="index.html" class="col-md-4 logo"> </a>
         <div class="col-md-8">
@@ -49,7 +49,7 @@
                 <li
                   class="col-6 col-sm-3 list-inline-item nav-color-contact navitem"
                 >
-                  <a href="Contact.html" class="hvr-shutter-out-horizontal"
+                  <a href="contact.html" class="hvr-shutter-out-horizontal"
                     ><i class="fa fa-comment-o" aria-hidden="true"></i
                     ><span>Contact</span></a
                   >
@@ -57,7 +57,7 @@
                 <li
                   class="col-6 col-sm-3 list-inline-item nav-color-download navitem"
                 >
-                  <a href="#" class="hvr-shutter-out-horizontal"
+                  <a href="cv/BesherAboujeeb.pdf" target="_blank" class="hvr-shutter-out-horizontal"
                     ><i class="fa fa-download" aria-hidden="true"></i
                     ><span>Download</span></a
                   >
@@ -70,13 +70,50 @@
     </header>
 
     <section class="container-fluid">
-    <div class="row bg-color-contact">
-    <div class="col">
-        <h3>Got a Project in Mind?</h3>
-    </div>
-    
-    </div>
-
+      <div class="row bg-color-contact">
+        <div class="col">
+          <h3 class="contact-heading uppercase text-center">
+            Got a Project in Mind?
+          </h3>
+          <h5 class="uppercase text-center">lets work together</h5>
+          <div class="center-form">
+            <form>
+              <input
+                type="text"
+                name="name"
+                id="fullname"
+                class="form-control"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="emailaddress"
+                class="form-control"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                rows="5"
+                name="msg"
+                id="msg"
+                class="form-control"
+                placeholder="Project Description"
+                required
+              >
+              </textarea>
+              <div class="form-new text-center">
+                <div class="col">
+                  <botton type="submit" class="btn btn-secondary"
+                    >Send Now!
+                  </botton>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="container-fluid">
@@ -96,7 +133,7 @@
           <h5 class="uppercase general-sub">Download</h5>
           <p class="inlineblock">
             Need a printable version of my CV? Downdload it here.
-            <a href="#" target="_blank" class="cv-pdf">
+            <a href="cv/BesherAboujeeb.pdf" target="_blank" class="cv-pdf">
               <i class="fa fa-download" aria-hidden="true"></i>
               <span class="sr-only">Downdload Now!</span>
             </a>
