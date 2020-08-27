@@ -16,6 +16,12 @@
 .nav-color-contact {
     background: #3498db ;
 }
+.nav-color-interests {
+    background: #c00616 ;
+}
+.nav-color-github {
+    background: #333381 ;
+}
 .nav-color-download {
     background: #525252 ;
 }
@@ -340,3 +346,8 @@ botton[type="submit"] {
     color: #fafafa;
     background-color: #e84610;
 
+}
+#map {
+    height: 400px;
+    width: 400px;
+}
